@@ -1,0 +1,299 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+.logo  img{
+    height: 90px;
+
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    width: 980px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav li,
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul {
+    display:flex;
+}
+nav a {
+    display:block;
+    padding: 15px;
+    text-decoration: none;
+    font-family: arial;
+}
+.ativo,nav a:hover {
+    background: blue;
+    color: white;
+    font-family: arial;
+}
+#banner{
+    display:flex;
+    justify-content: center;
+    height: 500px;
+    background-image:url("imagens/banner.jpg") ;
+    background-position: center;
+    height: 670px;
+
+}
+.coluna{
+    flex-direction: column;
+}
+.superior{
+flex:1;
+display:flex;
+justify-content: center;
+flex-direction: column;
+}
+.opcoes {
+height: 210px;
+display:flex;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 2px 2px 2px #000000;
+    max-width: 300px;
+}
+h2{
+    font-size: 20px;
+    max-width: 200px;
+}
+.banner1,.banner2,.banner3{
+    flex:1;
+    width: 100px;
+    color: white;
+    padding: 20px;
+}
+.banner1{
+    background:rgb(85, 47, 255) ;
+}
+.banner2{
+    background:rgb(122, 50, 205) ;
+}
+.banner3{
+    background:rgb(222, 135, 196) ;
+}
+.banner_title{
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 20px;
+
+}
+.descricao {
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.opcoes a{
+    display:inline-block;
+    border: 1px solid #999999;
+    padding: 3px;
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+
+}
+
+.opcoes a:hover{
+    background: blue;
+}
+.dia{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #000000;
+    border-bottom: 2px solid black;
+
+}
+#geral{
+    display:flex;
+    justify-content: center;
+}
+
+#geral .conteudo{
+    flex:2
+}
+aside{
+    flex:1;
+}
+.width_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.width_texto{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+.barra {
+    width: 70px;
+    height: 2px;
+    background: blue;
+    margin-top: 5px;
+}
+.width_conteudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.d1, .d2, .d3, .d4 {
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}
+.d1{
+    background-image: url(imagens/teste.png);
+}
+article a {
+    text-decoration: none;
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+article{
+    flex:1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+article .data {
+    display:flex;
+}
+article .data_post {
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 3px;
+}
+.comentario {
+    background-color: rgb(0, 140, 255);
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    font-family: Impact;
+
+}
+.capa_noticias {
+    margin-top: 20px;
+}
+.capa_noticias img {
+    width: 100%;
+    height: auto;
+}
+.titulo_noticia{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16pt;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: black;
+
+}
+.resumo {
+    line-height: 25px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.lateral{
+    flex:1;
+    min-width: 100px;
+    margin-right: 20px;
+}
+
+.titulo_noticia_l{
+    margin-top: -15px;
+    font-size: 11pt;
+    margin-left: 20px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.lateral .capa_noticias img {
+    width: 150PX;
+    height: 150PX;
+}
+
+footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+.footer_menu{
+    display:flex;
+    flex:1;
+}
+.fn1, .fn2, .fn3 {
+ flex:1;
+ color: white;
+ padding: 20px;
+}
+.fn1{
+    background:rgb(85, 47, 255) ;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+
+}
+.fn2{
+    background:rgb(122, 50, 205) ;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.flex_coluna {
+    flex-direction: column;
+}
+.footer_area {
+    display: flex;
+    color: aliceblue;
+}
+.fa1,.fa2, .fa3 {
+    flex:1;
+}
+.footer_area .width_texto {
+    color: white;
+    justify-content: center;
+}
+
+.resumo_f{
+    font-family: sans-serif;
+    font-size: 12px;
+    
+}
+.text_end{
+    font-family: Impact;
+    font-size: 15px;
+    margin-bottom: -1px;
+    color: #999999;
+}
+.contatos{
+    color:rgba(250, 235, 215, 0.295);
+    border-top: #e2cce9ec solid;
+}
